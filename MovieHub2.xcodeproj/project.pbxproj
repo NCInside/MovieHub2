@@ -15,6 +15,8 @@
 		046DC6E12A176A9E004AE858 /* MovieHub2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6DF2A176A9E004AE858 /* MovieHub2.xcdatamodeld */; };
 		046DC6EC2A177381004AE858 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6EB2A177381004AE858 /* MovieList.swift */; };
 		046DC6EE2A178332004AE858 /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6ED2A178332004AE858 /* MovieCard.swift */; };
+		04F3020F2A17AAA0003974B2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3020E2A17AAA0003974B2 /* Movie.swift */; };
+		04F302132A17ABC3003974B2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302122A17ABC3003974B2 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,9 @@
 		046DC6E02A176A9E004AE858 /* MovieHub2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieHub2.xcdatamodel; sourceTree = "<group>"; };
 		046DC6EB2A177381004AE858 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		046DC6ED2A178332004AE858 /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
+		04F3020E2A17AAA0003974B2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04F302112A17ABA9003974B2 /* movieData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = movieData.geojson; sourceTree = "<group>"; };
+		04F302122A17ABC3003974B2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,8 @@
 		046DC6D32A176A9C004AE858 /* MovieHub2 */ = {
 			isa = PBXGroup;
 			children = (
+				04F302102A17AB85003974B2 /* Resources */,
+				04F3020D2A17AA89003974B2 /* Model */,
 				046DC6E72A176ADA004AE858 /* Views */,
 				046DC6D42A176A9C004AE858 /* MovieHub2App.swift */,
 				046DC6D82A176A9E004AE858 /* Assets.xcassets */,
@@ -109,6 +116,23 @@
 			children = (
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		04F3020D2A17AA89003974B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04F3020E2A17AAA0003974B2 /* Movie.swift */,
+				04F302122A17ABC3003974B2 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04F302102A17AB85003974B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04F302112A17ABA9003974B2 /* movieData.geojson */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F3020F2A17AAA0003974B2 /* Movie.swift in Sources */,
 				046DC6DE2A176A9E004AE858 /* Persistence.swift in Sources */,
 				046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */,
 				046DC6EE2A178332004AE858 /* MovieCard.swift in Sources */,
 				046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */,
+				04F302132A17ABC3003974B2 /* ModelData.swift in Sources */,
 				046DC6EC2A177381004AE858 /* MovieList.swift in Sources */,
 				046DC6E12A176A9E004AE858 /* MovieHub2.xcdatamodeld in Sources */,
 			);
