@@ -9,6 +9,9 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @AppStorage("shouldonboard") var shouldonboard: Bool = true
+//    @State var shouldonboard: Bool = true
+
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -39,7 +42,9 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
-        }
+        }.fullScreenCover(isPresented: $shouldonboard, content: {
+            onBoardingView(shouldonboard: $shouldonboard)
+        })
     }
 
     private func addItem() {
@@ -71,6 +76,18 @@ struct ContentView: View {
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
         }
+    }
+}
+
+struct onBoardingView: View{
+    @Binding var shouldonboard:Bool
+
+    var body: some View{
+        TabView{
+            OnboardingView1()
+            OnboardingView2()
+            OnboardingView3(shouldonboard: $shouldonboard)
+        }.tabViewStyle(PageTabViewStyle()).ignoresSafeArea(.all)
     }
 }
 

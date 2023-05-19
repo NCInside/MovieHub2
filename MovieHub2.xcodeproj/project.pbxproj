@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0400A30D2A17C339000A6645 /* CinemaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A30C2A17C339000A6645 /* CinemaDetail.swift */; };
 		0400A30F2A17C347000A6645 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A30E2A17C347000A6645 /* MapView.swift */; };
+		0400A3122A17CAA7000A6645 /* OnboardingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A3112A17CAA7000A6645 /* OnboardingView1.swift */; };
+		0400A3142A17D2D1000A6645 /* OnboardingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A3132A17D2D1000A6645 /* OnboardingView3.swift */; };
+		0400A3162A17D3AA000A6645 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A3152A17D3AA000A6645 /* OnboardingView2.swift */; };
 		046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D42A176A9C004AE858 /* MovieHub2App.swift */; };
 		046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D62A176A9C004AE858 /* ContentView.swift */; };
 		046DC6D92A176A9E004AE858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046DC6D82A176A9E004AE858 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		0400A30C2A17C339000A6645 /* CinemaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CinemaDetail.swift; path = MovieHub2/Views/CinemaDetail.swift; sourceTree = SOURCE_ROOT; };
 		0400A30E2A17C347000A6645 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = MovieHub2/Views/MapView.swift; sourceTree = SOURCE_ROOT; };
+		0400A3112A17CAA7000A6645 /* OnboardingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView1.swift; sourceTree = "<group>"; };
+		0400A3132A17D2D1000A6645 /* OnboardingView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView3.swift; sourceTree = "<group>"; };
+		0400A3152A17D3AA000A6645 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
 		046DC6D12A176A9C004AE858 /* MovieHub2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046DC6D42A176A9C004AE858 /* MovieHub2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHub2App.swift; sourceTree = "<group>"; };
 		046DC6D62A176A9C004AE858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +46,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0400A3102A17C466000A6645 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0400A3112A17CAA7000A6645 /* OnboardingView1.swift */,
+				0400A3132A17D2D1000A6645 /* OnboardingView3.swift */,
+				0400A3152A17D3AA000A6645 /* OnboardingView2.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		046DC6C82A176A9C004AE858 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +96,7 @@
 		046DC6E72A176ADA004AE858 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0400A3102A17C466000A6645 /* Onboarding */,
 				046DC6EA2A176B13004AE858 /* Profile */,
 				046DC6E92A176B0B004AE858 /* Cinema */,
 				046DC6E82A176B00004AE858 /* Movie */,
@@ -181,11 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400A3122A17CAA7000A6645 /* OnboardingView1.swift in Sources */,
+				0400A3142A17D2D1000A6645 /* OnboardingView3.swift in Sources */,
 				0400A30D2A17C339000A6645 /* CinemaDetail.swift in Sources */,
 				0400A30F2A17C347000A6645 /* MapView.swift in Sources */,
 				046DC6DE2A176A9E004AE858 /* Persistence.swift in Sources */,
 				046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */,
 				046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */,
+				0400A3162A17D3AA000A6645 /* OnboardingView2.swift in Sources */,
 				046DC6E12A176A9E004AE858 /* MovieHub2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
