@@ -55,8 +55,8 @@
 		046DC6D32A176A9C004AE858 /* MovieHub2 */ = {
 			isa = PBXGroup;
 			children = (
+				046DC6E72A176ADA004AE858 /* Views */,
 				046DC6D42A176A9C004AE858 /* MovieHub2App.swift */,
-				046DC6D62A176A9C004AE858 /* ContentView.swift */,
 				046DC6D82A176A9E004AE858 /* Assets.xcassets */,
 				046DC6DD2A176A9E004AE858 /* Persistence.swift */,
 				046DC6DF2A176A9E004AE858 /* MovieHub2.xcdatamodeld */,
@@ -71,6 +71,38 @@
 				046DC6DB2A176A9E004AE858 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		046DC6E72A176ADA004AE858 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046DC6EA2A176B13004AE858 /* Profile */,
+				046DC6E92A176B0B004AE858 /* Cinema */,
+				046DC6E82A176B00004AE858 /* Movie */,
+				046DC6D62A176A9C004AE858 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		046DC6E82A176B00004AE858 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		046DC6E92A176B0B004AE858 /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cinema;
+			sourceTree = "<group>";
+		};
+		046DC6EA2A176B13004AE858 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
