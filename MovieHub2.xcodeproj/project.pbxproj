@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400A30D2A17C339000A6645 /* CinemaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A30C2A17C339000A6645 /* CinemaDetail.swift */; };
+		0400A30F2A17C347000A6645 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A30E2A17C347000A6645 /* MapView.swift */; };
 		046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D42A176A9C004AE858 /* MovieHub2App.swift */; };
 		046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D62A176A9C004AE858 /* ContentView.swift */; };
 		046DC6D92A176A9E004AE858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046DC6D82A176A9E004AE858 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400A30C2A17C339000A6645 /* CinemaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CinemaDetail.swift; path = MovieHub2/Views/CinemaDetail.swift; sourceTree = SOURCE_ROOT; };
+		0400A30E2A17C347000A6645 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = MovieHub2/Views/MapView.swift; sourceTree = SOURCE_ROOT; };
 		046DC6D12A176A9C004AE858 /* MovieHub2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046DC6D42A176A9C004AE858 /* MovieHub2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHub2App.swift; sourceTree = "<group>"; };
 		046DC6D62A176A9C004AE858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		046DC6E92A176B0B004AE858 /* Cinema */ = {
 			isa = PBXGroup;
 			children = (
+				0400A30C2A17C339000A6645 /* CinemaDetail.swift */,
+				0400A30E2A17C347000A6645 /* MapView.swift */,
 			);
 			path = Cinema;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400A30D2A17C339000A6645 /* CinemaDetail.swift in Sources */,
+				0400A30F2A17C347000A6645 /* MapView.swift in Sources */,
 				046DC6DE2A176A9E004AE858 /* Persistence.swift in Sources */,
 				046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */,
 				046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */,
