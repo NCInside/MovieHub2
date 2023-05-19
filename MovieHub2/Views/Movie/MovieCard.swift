@@ -16,7 +16,7 @@ struct MovieCard: View {
             movie.image
                 .resizable()
             HStack {
-                ForEach (0..<Int(movie.score), id: \.self) {_ in
+                ForEach (0..<(Int(movie.score)+1), id: \.self) {_ in
                     Image(systemName: "star.fill")
                 }
                 ForEach (0..<Int(5-movie.score), id: \.self) {_ in

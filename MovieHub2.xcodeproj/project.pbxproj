@@ -17,6 +17,7 @@
 		046DC6EE2A178332004AE858 /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6ED2A178332004AE858 /* MovieCard.swift */; };
 		04F3020F2A17AAA0003974B2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3020E2A17AAA0003974B2 /* Movie.swift */; };
 		04F302132A17ABC3003974B2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302122A17ABC3003974B2 /* ModelData.swift */; };
+		04F302152A17C760003974B2 /* movieData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F302142A17C54C003974B2 /* movieData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,8 @@
 		046DC6EB2A177381004AE858 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		046DC6ED2A178332004AE858 /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
 		04F3020E2A17AAA0003974B2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		04F302112A17ABA9003974B2 /* movieData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = movieData.geojson; sourceTree = "<group>"; };
 		04F302122A17ABC3003974B2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		04F302142A17C54C003974B2 /* movieData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +131,7 @@
 		04F302102A17AB85003974B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04F302112A17ABA9003974B2 /* movieData.geojson */,
+				04F302142A17C54C003974B2 /* movieData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -193,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F302152A17C760003974B2 /* movieData.json in Resources */,
 				046DC6DC2A176A9E004AE858 /* Preview Assets.xcassets in Resources */,
 				046DC6D92A176A9E004AE858 /* Assets.xcassets in Resources */,
 			);
