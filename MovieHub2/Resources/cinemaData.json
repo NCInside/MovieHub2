@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cinema A",
+        "address": "123 Main Street",
+        "city": "City A",
+        "country": "Country A"
+    },
+    {
+        "name": "Cinema B",
+        "address": "456 Elm Street",
+        "city": "City B",
+        "country": "Country B"
+    },
+    {
+        "name": "Cinema C",
+        "address": "789 Oak Street",
+        "city": "City C",
+        "country": "Country C"
+    }
+]
