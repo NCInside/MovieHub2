@@ -4,12 +4,11 @@
 //
 //  Created by MacBook Pro on 19/05/23.
 //
-
 import SwiftUI
 
 struct OnboardingView3: View {
     @Binding var shouldonboard:Bool
-    
+
     var body: some View {
         ZStack{
             Image("BG_Onboarding3")
@@ -19,7 +18,7 @@ struct OnboardingView3: View {
                 .ignoresSafeArea(edges: .top)
                 .colorMultiply(Color.red)
 
-            
+
             VStack{
                 VStack{
                     Spacer()
@@ -38,7 +37,7 @@ struct OnboardingView3: View {
                     }.padding(.leading)
                         .font(Font.system(size: 50))
                         .bold()
-                    
+
                     Spacer()
                     Button(action: {
                         shouldonboard.toggle()
@@ -48,12 +47,12 @@ struct OnboardingView3: View {
                             .frame(width: 300, height: 50)
                             .background(.gray)
                             .cornerRadius(50)
-                        
+
                     })
                     Spacer()
 
                 }
-                
+
                 Spacer()
             }
             .foregroundColor(.white)

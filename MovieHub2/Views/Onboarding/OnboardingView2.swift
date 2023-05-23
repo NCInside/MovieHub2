@@ -4,7 +4,6 @@
 //
 //  Created by MacBook Pro on 19/05/23.
 //
-
 import SwiftUI
 
 struct OnboardingView2: View {
@@ -17,7 +16,7 @@ struct OnboardingView2: View {
                 .ignoresSafeArea(edges: .top)
                 .colorMultiply(Color.red)
 
-            
+
             VStack{
                 VStack{
                     Spacer()
@@ -36,11 +35,11 @@ struct OnboardingView2: View {
                     }.padding(.leading)
                         .font(Font.system(size: 50))
                         .bold()
-                    
+
                     Spacer()
 
                 }
-                
+
                 Spacer()
             }
             .foregroundColor(.white)
