@@ -10,6 +10,8 @@ import CoreData
 
 struct ContentView: View {
     @State private var selection: Tab = .movie
+    @AppStorage("shouldonboard") var shouldonboard: Bool = true
+    //    @State var shouldonboard: Bool = true
     
     enum Tab {
         case movie
@@ -42,13 +44,28 @@ struct ContentView: View {
                     Label("Theaters", systemImage: "popcorn")
                 }
                 .tag(Tab.theater)
-            MovieList()
+            ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
                 .tag(Tab.profile)
         }
         .accentColor(Color.black)
+        .fullScreenCover(isPresented: $shouldonboard, content: {
+            onBoardingView(shouldonboard: $shouldonboard)
+        })
+    }
+}
+
+struct onBoardingView: View{
+    @Binding var shouldonboard:Bool
+
+    var body: some View{
+        TabView{
+            OnboardingView1()
+            OnboardingView2()
+            OnboardingView3(shouldonboard: $shouldonboard)
+        }.tabViewStyle(PageTabViewStyle()).ignoresSafeArea(.all)
     }
 }
 
