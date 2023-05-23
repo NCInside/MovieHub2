@@ -4,7 +4,6 @@
 //
 //  Created by Vincent on 19/05/23.
 //
-
 import SwiftUI
 
 struct Menu: Identifiable {
@@ -20,13 +19,13 @@ struct MenuListView: View {
         Menu(title: "Messages"),
         Menu(title: "Logout")
     ]
-    
+
     var body: some View {
         VStack {
             Text("Menus")
                 .font(.title)
                 .padding(.top, 3)
-            
+
             List(menus) { menu in
                 Text(menu.title)
             }
