@@ -18,6 +18,7 @@
 		04F3020F2A17AAA0003974B2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3020E2A17AAA0003974B2 /* Movie.swift */; };
 		04F302132A17ABC3003974B2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302122A17ABC3003974B2 /* ModelData.swift */; };
 		04F302152A17C760003974B2 /* movieData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F302142A17C54C003974B2 /* movieData.json */; };
+		04F302172A17D3BA003974B2 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302162A17D3BA003974B2 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		04F3020E2A17AAA0003974B2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		04F302122A17ABC3003974B2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		04F302142A17C54C003974B2 /* movieData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieData.json; sourceTree = "<group>"; };
+		04F302162A17D3BA003974B2 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				046DC6EB2A177381004AE858 /* MovieList.swift */,
 				046DC6ED2A178332004AE858 /* MovieCard.swift */,
+				04F302162A17D3BA003974B2 /* MovieDetail.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				04F3020F2A17AAA0003974B2 /* Movie.swift in Sources */,
 				046DC6DE2A176A9E004AE858 /* Persistence.swift in Sources */,
 				046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */,
+				04F302172A17D3BA003974B2 /* MovieDetail.swift in Sources */,
 				046DC6EE2A178332004AE858 /* MovieCard.swift in Sources */,
 				046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */,
 				04F302132A17ABC3003974B2 /* ModelData.swift in Sources */,

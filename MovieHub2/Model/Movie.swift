@@ -22,4 +22,10 @@ struct Movie: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case nowShowing = "Now Showing"
+        case comingSoon = "Coming Soon"
+    }
 }

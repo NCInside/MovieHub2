@@ -11,6 +11,13 @@ import Combine
 // The class to load and interact with the json data
 final class ModelData: ObservableObject {
     @Published var movies: [Movie] = load("movieData.json")
+    
+    var categories: [String: [Movie]] {
+        Dictionary(
+            grouping: movies,
+            by: { $0.category.rawValue }
+        )
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

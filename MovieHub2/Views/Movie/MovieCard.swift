@@ -12,25 +12,29 @@ struct MovieCard: View {
     var movie: Movie
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             movie.image
                 .resizable()
-            HStack {
+                .frame(minHeight: 270.0)
+            HStack(spacing: 3) {
                 ForEach (0..<(Int(movie.score)+1), id: \.self) {_ in
                     Image(systemName: "star.fill")
+                        .foregroundColor(Color(red: 255/255.0, green: 192/255.0, blue: 69/255.0))
                 }
                 ForEach (0..<Int(5-movie.score), id: \.self) {_ in
-                    Image(systemName: "star.fill")
+                    Image(systemName: "star")
+                        .foregroundColor(Color(red: 255/255.0, green: 192/255.0, blue: 69/255.0))
                 }
             }
+            .padding(.top, 10)
             Text(movie.title)
-            HStack {
-                Text(movie.genres[0])
-                Text("|")
-                Text("\(movie.duration / 60)h \(movie.duration % 60)m")
-                Text("|")
-                Text(movie.rating)
-            }
+                .font(.system(size: 18, weight: .heavy, design: .default))
+                .foregroundColor(.white)
+                .padding(.top, 5)
+            Text("\(movie.genres[0]) | \(movie.duration / 60)h \(movie.duration % 60)m | \(movie.rating)")
+                .font(.system(size: 14, weight: .medium, design: .default))
+                .foregroundColor(.gray)
+                .padding(.top, 1)
         }
     }
 }
@@ -39,6 +43,7 @@ struct MovieCard_Previews: PreviewProvider {
     static var movies = ModelData().movies
     
     static var previews: some View {
-        MovieCard(movie: movies[0])
+        MovieList()
+            .environmentObject(ModelData())
     }
 }
