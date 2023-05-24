@@ -173,14 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				04F302142A17C54C003974B2 /* movieData.json */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-				0400A3172A1DD79A000A6645 /* ShowingmovieData.json */,
->>>>>>> parent of 48e943a (idk test)
-=======
-				0400A3172A1DD79A000A6645 /* ShowingmovieData.json */,
->>>>>>> parent of 48e943a (idk test)
 			);
 			path = Resources;
 			sourceTree = "<group>";
