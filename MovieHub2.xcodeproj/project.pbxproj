@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400A3192A1E6D50000A6645 /* tes3 in Resources */ = {isa = PBXBuildFile; fileRef = 0400A3182A1E6D50000A6645 /* tes3 */; };
 		046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D42A176A9C004AE858 /* MovieHub2App.swift */; };
 		046DC6D72A176A9C004AE858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC6D62A176A9C004AE858 /* ContentView.swift */; };
 		046DC6D92A176A9E004AE858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046DC6D82A176A9E004AE858 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400A3182A1E6D50000A6645 /* tes3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = tes3; sourceTree = "<group>"; };
 		046DC6D12A176A9C004AE858 /* MovieHub2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046DC6D42A176A9C004AE858 /* MovieHub2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHub2App.swift; sourceTree = "<group>"; };
 		046DC6D62A176A9C004AE858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				04F302142A17C54C003974B2 /* movieData.json */,
+				0400A3182A1E6D50000A6645 /* tes3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				04F302152A17C760003974B2 /* movieData.json in Resources */,
 				046DC6DC2A176A9E004AE858 /* Preview Assets.xcassets in Resources */,
 				046DC6D92A176A9E004AE858 /* Assets.xcassets in Resources */,
+				0400A3192A1E6D50000A6645 /* tes3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
