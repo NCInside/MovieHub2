@@ -29,6 +29,7 @@
 		04F302132A17ABC3003974B2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302122A17ABC3003974B2 /* ModelData.swift */; };
 		04F302152A17C760003974B2 /* movieData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F302142A17C54C003974B2 /* movieData.json */; };
 		04F302172A17D3BA003974B2 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F302162A17D3BA003974B2 /* MovieDetail.swift */; };
+		BF218B8B2A1E6D4800D70577 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF218B8A2A1E6D4800D70577 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		04F302122A17ABC3003974B2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		04F302142A17C54C003974B2 /* movieData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieData.json; sourceTree = "<group>"; };
 		04F302162A17D3BA003974B2 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		BF218B8A2A1E6D4800D70577 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				04CCFD542A1C458B00C0B963 /* CinemaDetail.swift */,
 				04CCFD562A1C45C700C0B963 /* MapView.swift */,
+				BF218B8A2A1E6D4800D70577 /* Test.swift */,
 			);
 			path = Cinema;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				046DC6D52A176A9C004AE858 /* MovieHub2App.swift in Sources */,
 				04F302132A17ABC3003974B2 /* ModelData.swift in Sources */,
 				046DC6EC2A177381004AE858 /* MovieList.swift in Sources */,
+				BF218B8B2A1E6D4800D70577 /* Test.swift in Sources */,
 				046DC6E12A176A9E004AE858 /* MovieHub2.xcdatamodeld in Sources */,
 				04CCFD662A1C4ABF00C0B963 /* SchoolController.swift in Sources */,
 			);
