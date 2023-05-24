@@ -32,14 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-		0400A3172A1DD79A000A6645 /* ShowingmovieData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ShowingmovieData.json; sourceTree = "<group>"; };
->>>>>>> parent of 48e943a (idk test)
-=======
-		0400A3172A1DD79A000A6645 /* ShowingmovieData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ShowingmovieData.json; sourceTree = "<group>"; };
->>>>>>> parent of 48e943a (idk test)
 		046DC6D12A176A9C004AE858 /* MovieHub2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046DC6D42A176A9C004AE858 /* MovieHub2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHub2App.swift; sourceTree = "<group>"; };
 		046DC6D62A176A9C004AE858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
